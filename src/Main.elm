@@ -3,14 +3,16 @@ module Main exposing (main)
 import Element exposing (..)
 import Element.Background as Background
 import Element.Border as Border
-import Element.Events exposing (..)
 import Element.Font as Font
 import Element.Input as Input
 import Html exposing (Html)
 
 
 type alias Message =
-    { author : String, time : String, text : String }
+    { author : String
+    , time : String
+    , text : String
+    }
 
 
 sampleChannels : List String
