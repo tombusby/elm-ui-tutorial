@@ -53,4 +53,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# VS Code projext-local settings
+.vscode
+
 # End of https://www.gitignore.io/api/osx,elm,linux
